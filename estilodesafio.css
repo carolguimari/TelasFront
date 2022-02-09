@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    background: #E5E5E5;
+}
+
+.cabecalho {
+    display:flex;
+    background: #FFFFFF;
+    justify-content: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.12);
+
+}
+
+.cabecalho-centro {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    flex: 1 1 200px;
+    padding: 20px;
+
+}
+
+
+.menu a {
+    text-decoration: none;
+    color: #545454;
+    margin: 10px
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+
+.centro {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 730px;
+    background: #FFFFFF;
+    border-radius: 0.5em;
+    margin: 2em;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.12);
+
+}
+
+.card-titulo {
+    font-size: 1rem;
+    padding-left: 1em;
+    
+}
+
+.data {
+    font-size: 12px
+}
+
+
+.foto img {
+    object-fit: cover;
+}
+
+.card-conteudo {
+    padding-left: 1em;
+    padding-right: 1em;
+    max-width: 730px;
+}
+
+.botao {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1em;
+}
+
+button {
+    border-radius: 3em;
+    padding: 1em;
+    background: #FFFFFF;
+    margin-bottom: 1em;
+    border: solid 1px  #FE0078
+   
+    
+}
+
+button a {
+    text-decoration: none;
+    color:  #545454;
+}
+
+
+.barra-lateral {
+    display: flex;
+    width: 23em;
+    height: 90em;
+    background: #FFFFFF;
+    padding: 1em;
+    margin: 2em;
+    border-radius: 0.5em;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.12);
+    
+    
+
+}
+
+
+.pesquisa {
+    display: flex;
+    justify-content: center;
+    height: 2.5em;
+
+}
+
+.pesquisa input {
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+    border: 1px solid #545454;
+    border-radius: 1em;
+    outline: 0;
+}
+
+.pesquisa input:focus {
+    border-color: #FE0078;
+    padding: 0.5em;
+    
+}
+
+.titulo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.quadrado {
+    display: flex;
+    width: 0.2em;
+    height: 2.5em;
+    background:  #FE0078;
+}
+
+.h3 {
+    display: flex;
+    margin-left: 1em;
+}
+
+.lista {
+    display: flex;
+    width: 21em;
+    justify-content:space-between;
+    align-items: center;
+    padding: 1em;
+    border-bottom: 1px dashed #EEEEEE;
+}
+
+.publi {
+    display: flex;
+    flex-direction: column;
+}
+
+.bloco {
+    width: 340px;
+    height: 240px;
+    background:  #EEEEEE;
+    margin-bottom: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    color:  #545454
+}
+
+.rodape {
+    background: #222222;
+    color: #FFFFFF;
+    text-align: center;
+}
