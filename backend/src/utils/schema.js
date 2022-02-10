@@ -42,4 +42,4 @@ const up = async (number = null) => {
 	console.log('Migração rodada');
 };
 
-up();
+//up();
